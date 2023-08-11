@@ -5,11 +5,14 @@
 // a = -9; b = -3 -> max = -3
 
 System.Console.WriteLine("Напишите 1 число");
-int num1 = Console.ReadLine.ToInt32();
+int a = Convert.ToInt32(Console.ReadLine());
 System.Console.WriteLine("Напишите 2 число");
-int num2 = Console.ReadLine.ToInt32();
-int Max = 0;
-if(num1<num2=Max==num2||num1>num2=Max==num1)
-{
-    System.Console.WriteLine(Max);
-}
+int b = Convert.ToInt32(Console.ReadLine());
+int max = a;
+
+if (a > max) max = a;
+if (b > max) max = b;
+
+
+Console.Write("max = ");
+Console.WriteLine(max);
