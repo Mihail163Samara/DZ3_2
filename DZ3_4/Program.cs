@@ -8,13 +8,13 @@ System.Console.WriteLine("Напишите 1 число");
 int a = Convert.ToInt32(Console.ReadLine());
 System.Console.WriteLine("Напишите 2 число");
 int b = Convert.ToInt32(Console.ReadLine());
-System.Console.WriteLine("Напишите 2 число");
+System.Console.WriteLine("Напишите 3 число");
 int c = Convert.ToInt32(Console.ReadLine());
 int max = a;
 
 if (a > max) max = a;
 if (b > max) max = b;
-if (b > max) max = c;
+if (c > max) max = c;
 
 
 Console.Write("max = ");
